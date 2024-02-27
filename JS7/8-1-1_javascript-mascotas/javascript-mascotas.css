@@ -1,0 +1,111 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    border: 1px solid rgba(255, 68, 0, 0.226);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(255, 68, 0, 0.664);
+    width: 95%;
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    a{
+        padding: 10px;
+        background-color: rgba(255, 68, 0, 0.664);
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+    }
+}
+
+.img-presentacion{
+    background-image: url(/img/imagen-presentacion.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: smaller;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.363);
+    border-style: solid;
+    border-width: thin;
+    .titulo{
+        background-color: rgba(255, 255, 255, 0.363);
+        border-radius: 5px;
+        padding: 50px;
+    }
+}
+
+.consulta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 68, 0, 0.226);
+    width: 90%;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+input{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+#button{
+    background-color: rgba(255, 68, 0, 0.664);
+    width: 100px;
+    color: white;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#mascotas{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 68, 0, 0.226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+footer{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 68, 0, 0.226);
+    margin-top: 50px;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(255, 68, 0, 0.664);
+    a{
+        color: rgba(255, 68, 0, 0.664);
+        font-size: x-large;
+    }
+}
